@@ -75,6 +75,7 @@ build-pdf: build/
 			--standalone \
 			-o build/template_temp.html; \
 		wkhtmltopdf \
+			--enable-local-file-access \
 			--page-size A4 \
 			--margin-top 20mm \
 			--margin-bottom 20mm \
