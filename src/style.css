@@ -12,7 +12,7 @@
 
 /* Body and general typography */
 body {
-  font-family: 'Georgia', 'Times New Roman', serif;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
   color: var(--text-color);
   max-width: 8.5in;
