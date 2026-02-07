@@ -1,23 +1,18 @@
 ---
 title: Commercial Rental Agreement
-date: __AGREEMENT_DATE__
+date: 09.02.2026
 ---
 
-# Commercial Rental Agreement
+This Agreement is made on **09.02.2026** at **Salem**, India.
 
-**For Small Businesses and Startups**
-
-This Agreement is made on **__AGREEMENT_DATE__** at **__CITY__**, India.
-
----
 
 ## Between
 
 ### LANDLORD (First Party)
 
-**Name:** __LANDLORD_NAME__
-**Address:** __LANDLORD_ADDRESS__
-**Phone:** __LANDLORD_PHONE__
+**Name:**  ABC D
+**Address:** 123 ABC SALEM - 636001
+**Phone:** 12345 54321
 
 (Hereinafter referred to as "**Landlord**" or "**First Party**", which expression shall, unless repugnant to the context or meaning thereof, mean and include his/her heirs, executors, administrators, legal representatives, and assigns)
 
@@ -25,14 +20,13 @@ This Agreement is made on **__AGREEMENT_DATE__** at **__CITY__**, India.
 
 ### TENANT (Second Party)
 
-**Name:** __TENANT_NAME__
-**Business Name:** __TENANT_BUSINESS_NAME__ *(if applicable)*
-**Address:** __TENANT_ADDRESS__
-**Phone:** __TENANT_PHONE__
+**Name:** GHI J
+**Business Name:** XYZ PVT LTD *(if applicable)*
+**Address:** 456 DEF SALEM - 636100
+**Phone:** 98765 56789
 
 (Hereinafter referred to as "**Tenant**" or "**Second Party**", which expression shall, unless repugnant to the context or meaning thereof, mean and include his/her heirs, executors, administrators, legal representatives, successors, and assigns)
 
----
 
 ## Recitals
 
@@ -42,30 +36,28 @@ This Agreement is made on **__AGREEMENT_DATE__** at **__CITY__**, India.
 
 **NOW THEREFORE** in consideration of the mutual covenants, terms, and conditions set forth in this Agreement, both parties agree as follows:
 
----
 
 ## 1. Property Description
 
 The Landlord agrees to rent out the following property to the Tenant:
 
 **Property Address:**
-__PROPERTY_ADDRESS__
+123 ABC SALEM - 636001
 
-**Floor:** __PROPERTY_FLOOR__ *(if applicable)*
+**Floor:** First *(if applicable)*
 
-**Area:** Approximately __PROPERTY_AREA_SQFT__ square feet *(if applicable)*
+**Area:** Approximately 1500 square feet *(if applicable)*
 
 **Property Type:** Commercial office/retail space suitable for small business use
 
 (Hereinafter referred to as "**the Property**")
 
----
 
 ## 2. Lease Period
 
-**Start Date:** __LEASE_START_DATE__
+**Start Date:** 01.02.2026
 
-**End Date:** __LEASE_END_DATE__
+**End Date:** 01.01.2027
 
 **Total Duration:** 11 months (to avoid mandatory registration requirements)
 
@@ -73,13 +65,12 @@ The tenancy shall commence on the Start Date and shall continue for a period of 
 
 > **Note:** This agreement is for 11 months to avoid the requirement of mandatory registration under the Registration Act, 1908. Agreements exceeding 11 months typically require registration with the Sub-Registrar office.
 
----
 
 ## 3. Rent and Payment Terms
 
-**Monthly Rent:** ₹__MONTHLY_RENT__
+**Monthly Rent:** ₹15000
 
-**Payment Due Date:** __RENT_DUE_DATE__ of each month
+**Payment Due Date:** 5th of each month
 
 **Payment Method:** Bank transfer, cheque, or cash (as mutually agreed)
 
@@ -93,11 +84,10 @@ If the Tenant fails to pay the rent by the due date, a grace period of 5 days sh
 
 The Landlord shall provide a receipt for each rent payment made by the Tenant.
 
----
 
 ## 4. Security Deposit
 
-**Security Deposit Amount:** ₹__SECURITY_DEPOSIT__ (typically 2-3 months' rent)
+**Security Deposit Amount:** ₹90000 (typically 2-3 months' rent)
 
 The Security Deposit shall be paid by the Tenant to the Landlord at the time of execution of this Agreement. This deposit serves as security for:
 - Any damage to the Property beyond normal wear and tear
@@ -113,13 +103,12 @@ Upon termination of this Agreement and vacation of the Property, the Landlord sh
 
 The Security Deposit shall not be adjusted against the last month's rent without mutual written consent.
 
----
 
 ## 5. Permitted Use
 
 The Tenant shall use the Property exclusively for the following business purpose:
 
-**Business Purpose:** __BUSINESS_PURPOSE__
+**Business Purpose:** Software Development & Consulting
 
 The Tenant shall:
 - Conduct lawful business activities only
@@ -128,7 +117,6 @@ The Tenant shall:
 - Not use the Property for any illegal, immoral, or hazardous activities
 - Not cause nuisance to neighbors or other occupants of the building
 
----
 
 ## 6. Utilities and Services
 
@@ -147,7 +135,6 @@ The Landlord shall ensure:
 - Proper functioning of common amenities (if applicable)
 - Building maintenance charges (unless otherwise agreed)
 
----
 
 ## 7. Maintenance and Repairs
 
@@ -172,7 +159,6 @@ The Landlord shall:
 
 The Tenant shall not make any structural alterations, additions, or modifications to the Property without prior written consent of the Landlord. Minor non-structural changes (such as painting, installing removable fixtures) may be permitted with Landlord's consent.
 
----
 
 ## 8. GST and Tax Obligations
 
@@ -187,17 +173,16 @@ The Tenant shall not make any structural alterations, additions, or modification
 
 > **Note:** As per Section 194-IB of the Income Tax Act, if the annual rent exceeds ₹2,40,000 (₹20,000/month), the Tenant is required to deduct TDS at 10% and deposit it with the Income Tax Department.
 
-- At the rent of ₹__MONTHLY_RENT__/month, if the annual rent equals or exceeds ₹2,40,000, the Tenant may need to deduct TDS.
+- At the rent of ₹15000/month, if the annual rent equals or exceeds ₹2,40,000, the Tenant may need to deduct TDS.
 - If TDS is applicable, the Tenant shall provide TDS certificates (Form 16C) to the Landlord.
 - The Landlord's PAN is not mandatorily required for this agreement, but may be needed for TDS compliance if applicable.
 
----
 
 ## 9. Termination and Notice Period
 
 ### Termination by Either Party
 
-Either party may terminate this Agreement by providing written notice of **__NOTICE_PERIOD__ days** to the other party.
+Either party may terminate this Agreement by providing written notice of **30 days days** to the other party.
 
 ### Early Termination
 
@@ -212,7 +197,6 @@ Upon termination, the Tenant shall:
 - Clear all pending rent, utility bills, and other dues
 - Hand over all keys and access devices to the Landlord
 
----
 
 ## 10. Force Majeure
 
@@ -223,7 +207,6 @@ In the event of force majeure circumstances (including but not limited to natura
 
 Neither party shall be held liable for failure to perform obligations under this Agreement due to force majeure events.
 
----
 
 ## 11. Dispute Resolution
 
@@ -233,9 +216,8 @@ In case of any dispute, claim, or disagreement arising out of or relating to thi
 
 ### Legal Jurisdiction
 
-If the dispute cannot be resolved amicably, it shall be subject to the exclusive jurisdiction of the courts in **__CITY__**, India.
+If the dispute cannot be resolved amicably, it shall be subject to the exclusive jurisdiction of the courts in **Salem**, India.
 
----
 
 ## 12. Stamp Duty and Registration
 
@@ -249,7 +231,6 @@ This Agreement shall be executed on appropriate stamp paper as per the stamp dut
 
 As this is an 11-month agreement, registration with the Sub-Registrar is generally **not mandatory** in most states. However, parties may choose to register this Agreement voluntarily for additional legal validity.
 
----
 
 ## 13. Miscellaneous Provisions
 
@@ -273,41 +254,35 @@ All notices under this Agreement shall be in writing and shall be deemed to have
 
 This Agreement shall be binding upon and inure to the benefit of the parties and their respective heirs, executors, administrators, legal representatives, successors, and permitted assigns.
 
----
 
 ## 14. Additional Terms
 
 *(Add any additional terms or special conditions agreed upon by both parties)*
 
----
 
----
 
 ## Execution
 
 **IN WITNESS WHEREOF**, the parties have executed this Agreement on the date first written above.
 
----
 
 ### Landlord's Signature
 
-**Name:** __LANDLORD_NAME__
+**Name:**  ABC D
 
 **Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 **Date:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
----
 
 ### Tenant's Signature
 
-**Name:** __TENANT_NAME__
+**Name:** GHI J
 
 **Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 **Date:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
----
 
 ### Witnesses (Optional but Recommended)
 
@@ -321,7 +296,6 @@ This Agreement shall be binding upon and inure to the benefit of the parties and
 
 **Date:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
----
 
 #### Witness 2
 
@@ -333,7 +307,6 @@ This Agreement shall be binding upon and inure to the benefit of the parties and
 
 **Date:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
----
 
 ## Important Disclaimers
 
@@ -347,6 +320,5 @@ This Agreement shall be binding upon and inure to the benefit of the parties and
 
 > **This template is released under CC0-1.0 (Public Domain). You are free to use, modify, and distribute it without attribution.**
 
----
 
 *Generated using the [Rental Agreement Template](https://github.com/YOUR_USERNAME/rental-agreement-template)*
