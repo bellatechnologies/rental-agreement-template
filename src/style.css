@@ -1,0 +1,289 @@
+/* Professional styling for Commercial Rental Agreement Template */
+/* Designed for small startups and buddy businesses */
+
+:root {
+  --primary-color: #2c3e50;
+  --accent-color: #3498db;
+  --text-color: #333;
+  --border-color: #ddd;
+  --bg-light: #f8f9fa;
+  --highlight-color: #fff3cd;
+}
+
+/* Body and general typography */
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  max-width: 8.5in;
+  margin: 0 auto;
+  padding: 1in;
+  background: white;
+  font-size: 11pt;
+}
+
+/* Headings */
+h1 {
+  color: var(--primary-color);
+  font-size: 24pt;
+  text-align: center;
+  border-bottom: 3px solid var(--accent-color);
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+  margin-top: 0;
+}
+
+h1 + p {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+  margin-bottom: 1.5em;
+}
+
+h2 {
+  color: var(--primary-color);
+  font-size: 16pt;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 0.3em;
+  page-break-after: avoid;
+}
+
+h3 {
+  color: var(--primary-color);
+  font-size: 13pt;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+h4 {
+  color: var(--primary-color);
+  font-size: 11pt;
+  margin-top: 1em;
+  margin-bottom: 0.4em;
+  font-weight: bold;
+}
+
+/* Paragraphs and text */
+p {
+  margin: 0.6em 0;
+  text-align: justify;
+}
+
+/* Lists */
+ol, ul {
+  margin: 0.6em 0;
+  padding-left: 2em;
+}
+
+li {
+  margin: 0.3em 0;
+}
+
+/* Strong emphasis */
+strong {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* Emphasis */
+em {
+  font-style: italic;
+}
+
+/* Horizontal rules */
+hr {
+  border: none;
+  border-top: 2px solid var(--border-color);
+  margin: 2em 0;
+}
+
+/* Blockquotes for important notices */
+blockquote {
+  border-left: 4px solid var(--accent-color);
+  background: var(--bg-light);
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  font-style: italic;
+  page-break-inside: avoid;
+}
+
+blockquote p {
+  margin: 0.5em 0;
+}
+
+blockquote strong {
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  page-break-inside: avoid;
+}
+
+th, td {
+  border: 1px solid var(--border-color);
+  padding: 0.5em;
+  text-align: left;
+}
+
+th {
+  background-color: var(--bg-light);
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+/* Links */
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Signature section */
+h2:has(+ p strong:contains("Name:")),
+h3:has(+ p strong:contains("Name:")) {
+  page-break-inside: avoid;
+}
+
+/* Party information sections */
+h3:contains("LANDLORD"),
+h3:contains("TENANT"),
+h3:contains("Witness") {
+  background-color: var(--bg-light);
+  padding: 0.5em;
+  margin-top: 1em;
+  border-left: 4px solid var(--accent-color);
+}
+
+/* Execution section spacing */
+.signature-section,
+h2:contains("Execution") ~ * {
+  page-break-inside: avoid;
+}
+
+/* Disclaimer styling */
+h2:contains("Disclaimer") + blockquote,
+blockquote:last-of-type {
+  background-color: #fffbf0;
+  border-left-color: #f39c12;
+  font-size: 10pt;
+}
+
+/* Placeholder highlighting (for editing/development) */
+/* Highlights all __PLACEHOLDER__ variables with yellow background */
+body:not(.print-mode) {
+  /* This will be visible in HTML preview but not in print */
+}
+
+/* Print styles */
+@media print {
+  body {
+    padding: 0.5in;
+    font-size: 10pt;
+  }
+
+  h1 {
+    font-size: 20pt;
+  }
+
+  h2 {
+    font-size: 14pt;
+    page-break-after: avoid;
+  }
+
+  h3 {
+    font-size: 12pt;
+    page-break-after: avoid;
+  }
+
+  /* Avoid breaking important sections across pages */
+  blockquote, table, pre {
+    page-break-inside: avoid;
+  }
+
+  /* Signature sections should not be orphaned */
+  h3:contains("Signature"),
+  h3:contains("Witness") {
+    page-break-before: auto;
+    page-break-after: avoid;
+  }
+
+  /* Ensure execution section starts on new page if needed */
+  h2:contains("Execution") {
+    page-break-before: auto;
+  }
+
+  /* Remove highlighting in print */
+  * {
+    background-color: white !important;
+    color: black !important;
+  }
+
+  blockquote {
+    background-color: #f9f9f9 !important;
+    border-left: 4px solid #ccc !important;
+  }
+
+  a {
+    color: #333 !important;
+  }
+}
+
+/* Screen-only styles (for HTML preview) */
+@media screen {
+  /* Add subtle shadow for better readability on screen */
+  body {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+  }
+
+  /* Highlight placeholders in yellow for easy identification */
+  /* This uses a pseudo-element approach since we can't directly style text */
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 8.5in) {
+  body {
+    padding: 0.5in;
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 20pt;
+  }
+
+  h2 {
+    font-size: 14pt;
+  }
+
+  h3 {
+    font-size: 12pt;
+  }
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.page-break {
+  page-break-after: always;
+}
+
+.no-break {
+  page-break-inside: avoid;
+}
