@@ -3,10 +3,6 @@ title: Commercial Rental Agreement
 date: 09.02.2026
 ---
 
-# Commercial Rental Agreement
-
-**For Small Businesses and Startups**
-
 This Agreement is made on **09.02.2026** at **Salem**, India.
 
 
