@@ -43,7 +43,7 @@ build/:
 build-html: build/
 	@echo "Building HTML version..."
 	@pandoc src/template.md \
-		-c src/style.css \
+		-c ../src/style.css \
 		-s \
 		-f markdown+header_attributes \
 		-t html \
@@ -68,7 +68,7 @@ build-pdf: build/
 	@command -v wkhtmltopdf >/dev/null 2>&1 && { \
 		echo "Using wkhtmltopdf..."; \
 		pandoc src/template.md \
-			-c src/style.css \
+			-c ../src/style.css \
 			-s \
 			-f markdown+header_attributes \
 			-t html \
