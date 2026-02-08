@@ -1,18 +1,18 @@
 ---
 title: Commercial Rental Agreement
-date: 09.02.2026
+date: __AGREEMENT_DATE__
 ---
 
-This Agreement is made on **09.02.2026** at **Salem**, India.
+This Agreement is made on **__AGREEMENT_DATE__** at **__CITY__**, India.
 
 
 ## Between
 
 ### LANDLORD (First Party)
 
-**Name:**  ABC D
-**Address:** 123 ABC SALEM - 636001
-**Phone:** 12345 54321
+**Name:** __LANDLORD_NAME__
+**Address:** __LANDLORD_ADDRESS__
+**Phone:** __LANDLORD_PHONE__
 
 (Hereinafter referred to as "**Landlord**" or "**First Party**", which expression shall, unless repugnant to the context or meaning thereof, mean and include his/her heirs, executors, administrators, legal representatives, and assigns)
 
@@ -20,10 +20,10 @@ This Agreement is made on **09.02.2026** at **Salem**, India.
 
 ### TENANT (Second Party)
 
-**Name:** GHI J
-**Business Name:** XYZ PVT LTD *(if applicable)*
-**Address:** 456 DEF SALEM - 636100
-**Phone:** 98765 56789
+**Name:** __TENANT_NAME__
+**Business Name:** __TENANT_BUSINESS_NAME__ *(if applicable)*
+**Address:** __TENANT_ADDRESS__
+**Phone:** __TENANT_PHONE__
 
 (Hereinafter referred to as "**Tenant**" or "**Second Party**", which expression shall, unless repugnant to the context or meaning thereof, mean and include his/her heirs, executors, administrators, legal representatives, successors, and assigns)
 
@@ -42,11 +42,11 @@ This Agreement is made on **09.02.2026** at **Salem**, India.
 The Landlord agrees to rent out the following property to the Tenant:
 
 **Property Address:**
-123 ABC SALEM - 636001
+__PROPERTY_ADDRESS__
 
-**Floor:** First *(if applicable)*
+**Floor:** __PROPERTY_FLOOR__ *(if applicable)*
 
-**Area:** Approximately 1500 square feet *(if applicable)*
+**Area:** Approximately __PROPERTY_AREA_SQFT__ square feet *(if applicable)*
 
 **Property Type:** Commercial office/retail space suitable for small business use
 
@@ -55,9 +55,9 @@ The Landlord agrees to rent out the following property to the Tenant:
 
 ## 2. Lease Period
 
-**Start Date:** 01.02.2026
+**Start Date:** __LEASE_START_DATE__
 
-**End Date:** 01.01.2027
+**End Date:** __LEASE_END_DATE__
 
 **Total Duration:** 11 months (to avoid mandatory registration requirements)
 
@@ -68,9 +68,9 @@ The tenancy shall commence on the Start Date and shall continue for a period of 
 
 ## 3. Rent and Payment Terms
 
-**Monthly Rent:** ₹15000
+**Monthly Rent:** ₹__MONTHLY_RENT__
 
-**Payment Due Date:** 5th of each month
+**Payment Due Date:** __RENT_DUE_DATE__ of each month
 
 **Payment Method:** Bank transfer, cheque, or cash (as mutually agreed)
 
@@ -87,7 +87,7 @@ The Landlord shall provide a receipt for each rent payment made by the Tenant.
 
 ## 4. Security Deposit
 
-**Security Deposit Amount:** ₹90000 (typically 2-3 months' rent)
+**Security Deposit Amount:** ₹__SECURITY_DEPOSIT__ (typically 2-3 months' rent)
 
 The Security Deposit shall be paid by the Tenant to the Landlord at the time of execution of this Agreement. This deposit serves as security for:
 - Any damage to the Property beyond normal wear and tear
@@ -108,7 +108,7 @@ The Security Deposit shall not be adjusted against the last month's rent without
 
 The Tenant shall use the Property exclusively for the following business purpose:
 
-**Business Purpose:** Software Development & Consulting
+**Business Purpose:** __BUSINESS_PURPOSE__
 
 The Tenant shall:
 - Conduct lawful business activities only
@@ -173,7 +173,7 @@ The Tenant shall not make any structural alterations, additions, or modification
 
 > **Note:** As per Section 194-IB of the Income Tax Act, if the annual rent exceeds ₹2,40,000 (₹20,000/month), the Tenant is required to deduct TDS at 10% and deposit it with the Income Tax Department.
 
-- At the rent of ₹15000/month, if the annual rent equals or exceeds ₹2,40,000, the Tenant may need to deduct TDS.
+- At the rent of ₹__MONTHLY_RENT__/month, if the annual rent equals or exceeds ₹2,40,000, the Tenant may need to deduct TDS.
 - If TDS is applicable, the Tenant shall provide TDS certificates (Form 16C) to the Landlord.
 - The Landlord's PAN is not mandatorily required for this agreement, but may be needed for TDS compliance if applicable.
 
@@ -182,7 +182,7 @@ The Tenant shall not make any structural alterations, additions, or modification
 
 ### Termination by Either Party
 
-Either party may terminate this Agreement by providing written notice of **30 days days** to the other party.
+Either party may terminate this Agreement by providing written notice of **__NOTICE_PERIOD__ days** to the other party.
 
 ### Early Termination
 
@@ -216,7 +216,7 @@ In case of any dispute, claim, or disagreement arising out of or relating to thi
 
 ### Legal Jurisdiction
 
-If the dispute cannot be resolved amicably, it shall be subject to the exclusive jurisdiction of the courts in **Salem**, India.
+If the dispute cannot be resolved amicably, it shall be subject to the exclusive jurisdiction of the courts in **__CITY__**, India.
 
 
 ## 12. Stamp Duty and Registration
@@ -268,7 +268,7 @@ This Agreement shall be binding upon and inure to the benefit of the parties and
 
 ### Landlord's Signature
 
-**Name:**  ABC D
+**Name:** __LANDLORD_NAME__
 
 **Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -277,7 +277,7 @@ This Agreement shall be binding upon and inure to the benefit of the parties and
 
 ### Tenant's Signature
 
-**Name:** GHI J
+**Name:** __TENANT_NAME__
 
 **Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
